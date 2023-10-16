@@ -285,7 +285,7 @@ const AboutUs = () => {
                   <div className="py-8">
                     <img
                       className="w-full h-16"
-                      src="https://360.agencewebcom.com/web/uploads/api/site-413/42a9f5a2934936263e0ccf2d2799f5d2124cc206.svg"
+                      src="https://api360beta.agencewebcom.com/uploads/api/site-413/3545ae0910217d237fb34f4d0dce5b3169e7852b.png"
                       alt=""
                     />
                   </div>

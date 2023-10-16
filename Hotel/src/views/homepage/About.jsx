@@ -14,11 +14,11 @@ const About = () => {
             {/* 2 column */}
             <img
               className="-translate-y-5"
-              src="https://bilurygallery.bithemer.com/assets/img/about/a2@2x.jpg"
+              src="https://plus.unsplash.com/premium_photo-1675745329954-9639d3b74bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
               alt=""
             />
             <img
-              src="https://bilurygallery.bithemer.com/assets/img/about/a1@2x.jpg"
+              src="https://plus.unsplash.com/premium_photo-1682285212027-6af0d0f70e07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
               alt=""
             />
           </div>
@@ -38,7 +38,10 @@ const About = () => {
               voluptatibus, rem quis deserunt modi eaque corporis.
             </p>
             <div className="">
-              <Link to="/about" className="flex items-center gap-1 font-thin bg-[#b18c57] text-white py-3 px-5 w-fit">
+              <Link
+                to="/about"
+                className="flex items-center gap-1 font-thin bg-[#b18c57] text-white py-3 px-5 w-fit"
+              >
                 Read More
                 <span>
                   <AiOutlineArrowRight />

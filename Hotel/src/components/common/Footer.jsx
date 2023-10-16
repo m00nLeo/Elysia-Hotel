@@ -35,8 +35,8 @@ const Footer = () => {
           {/* Short about */}
           <div className="">
             <img
-              className="w-full h-16 mb-4"
-              src="https://360.agencewebcom.com/web/uploads/api/site-413/42a9f5a2934936263e0ccf2d2799f5d2124cc206.svg"
+              className="w-full h-16 mb-4 bg-center bg-fixed"
+              src="https://api360beta.agencewebcom.com/uploads/api/site-413/3545ae0910217d237fb34f4d0dce5b3169e7852b.png"
               alt=""
             />
 
@@ -129,19 +129,39 @@ const Footer = () => {
             <div className="text-gray-500 ">
               <h1 className="mb-4 text-2xl ">Connect social</h1>
               <div className="flex items-center font-semibold gap-4 text-base">
-                <a className="hover:text-gray-100" target="_blank" href="http://www.facebook.com">
+                <a
+                  className="hover:text-gray-100"
+                  target="_blank"
+                  href="http://www.facebook.com"
+                >
                   <BsFacebook />
                 </a>
-                <a className="hover:text-gray-100" target="_blank" href="http://www.twitter.com">
+                <a
+                  className="hover:text-gray-100"
+                  target="_blank"
+                  href="http://www.twitter.com"
+                >
                   <BsTwitter />
                 </a>
-                <a className="hover:text-gray-100" target="_blank" href="http://www.instagram.com">
+                <a
+                  className="hover:text-gray-100"
+                  target="_blank"
+                  href="http://www.instagram.com"
+                >
                   <BsInstagram />
                 </a>
-                <a className="hover:text-gray-100" target="_blank" href="http://www.youtube.com">
+                <a
+                  className="hover:text-gray-100"
+                  target="_blank"
+                  href="http://www.youtube.com"
+                >
                   <AiOutlineYoutube />
                 </a>
-                <a className="hover:text-gray-100" target="_blank" href="http://www.tiktok.com">
+                <a
+                  className="hover:text-gray-100"
+                  target="_blank"
+                  href="http://www.tiktok.com"
+                >
                   <FaTiktok />
                 </a>
               </div>
